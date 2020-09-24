@@ -7,3 +7,15 @@ y el resultado de igual manera viene desde las bases de datos de RENAPO en tiemp
 Para hacer estas pruebas necesitas un editor de texto, en este caso tome SublimeText por lo practico y se enlazo 
 con Xamp para hacer una conexion virtual y poder simular la salida a las pruebas, el lenguaje fue PhP, html y jss, falta la prueba de enlace
 con el Recatpcha de google.
+
+
+
+On these APi tests, it is linked directly to www.consultas.curp.gob.mx/CurpSp/ to connect
+directly to the database and obtain the required information there, this is done through PHP and a note
+direct $ Url, then the fields are validated and the conditions equal to the query page of
+RENAPO (Name, state, sex, date of birth, etc ...) of which only your query is used, the captcha is added
+And the result in the same way comes from RENAPO's databases in real time.
+
+To do these tests you need a text editor, in this case I took SublimeText for practice and linked
+with Xamp to make a virtual connection and be able to simulate the output to the tests, the language was PhP, html and jss, the link test is missing
+with the google Recatpcha.
