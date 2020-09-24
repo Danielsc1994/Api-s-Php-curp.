@@ -3,5 +3,18 @@ https://es.wikipedia.org/wiki/Clave_%C3%9Anica_de_Registro_de_Poblaci%C3%B3n
 https://consultas.curp.gob.mx/CurpSP/
 http://segob.qroo.gob.mx/portal/RegistroCivil/Curp.php)
 
-"digitoVerificador" el cual especificamente viene en el apartado https://consultas.curp.gob.mx/CurpSP/ para hacer la validacion en tiempo real con las curps existentes
+"digitoVerificador" el cual especificamente viene en el apartado https://consultas.curp.gob.mx/CurpSP/ para hacer la validacion en tiempo real con las curps existentes y tomando el jss directamente de la pagina oficial.
 Se define el tamaño maximo de 18 en las curp´s y asi mismo se da la biblioteca de caracteres permitidos.
+
+
+
+
+
+
+For the validation of the curp, the function obtained from Renapo is used (http://www.ordenjuridico.gob.mx/Federal/PE/APF/APC/SEGOB/Instructivos/InstructivoNormativo.pdf
+https://es.wikipedia.org/wiki/Clave_%C3%9Anica_de_Registro_de_Poblaci%C3%B3n
+https://consultas.curp.gob.mx/CurpSP/
+http://segob.qroo.gob.mx/portal/RegistroCivil/Curp.php)
+
+"digitoVerificador" which specifically comes in the section https://consultas.curp.gob.mx/CurpSP/ to do the validation in real time with the existing curps and taking the jss directly from the official page.
+The maximum size of 18 is defined in the curp's and the library of allowed characters is also given.
