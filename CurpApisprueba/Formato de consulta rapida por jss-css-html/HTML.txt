@@ -1,0 +1,2 @@
+<input type="text" id="curp_input" oninput="validarInput(this)" style="width:100%;" placeholder="Ingrese una CURP valida">
+<pre id="resultado"></pre>

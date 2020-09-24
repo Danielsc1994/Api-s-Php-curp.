@@ -1,0 +1,9 @@
+En estas pruebas de APi se enlaza directamente a www.consultas.curp.gob.mx/CurpSp/ para conectarse
+directamente a la base de datos y obtener ahi la informacion requerida, esto se hace mediante PHP y un apunte
+directo $Url, posteriormente se validan los campos y se crean las condiciones iguales a la pagina de consulta de
+RENAPO(Nombre, estado, sexo, fecha de nacimienyo,etc...) de las cuales solo se utiliza su consulta, se agrega el captcha
+y el resultado de igual manera viene desde las bases de datos de RENAPO en tiempo real.
+
+Para hacer estas pruebas necesitas un editor de texto, en este caso tome SublimeText por lo practico y se enlazo 
+con Xamp para hacer una conexion virtual y poder simular la salida a las pruebas, el lenguaje fue PhP, html y jss, falta la prueba de enlace
+con el Recatpcha de google.
